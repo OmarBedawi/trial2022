@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: lightpink url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: lightpink;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -89,6 +89,8 @@ body {
     float: right;
 }
 
+
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -127,8 +129,20 @@ body {
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 850px) {
-    .index_div {
-        display: none;
+    .section_margin {
+        margin-left: 60px;
+    }
+
+    .index_pic{
+        display: flex;
+        margin-top: 0px;
+        width: 200%;
+        margin-right: 110px;
+    }
+
+    .best_margin{
+        margin-top: 200px;
+        
     }
 
 }
