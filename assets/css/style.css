@@ -89,6 +89,21 @@ body {
     float: right;
 }
 
+.page1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.video1{
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    width: 60%;
+    border: solid black 1px;
+
+}
+
 
 
 /* -------------------------------- Media Queries */
@@ -135,14 +150,24 @@ body {
 
     .index_pic{
         display: flex;
-        margin-top: 0px;
+        margin-top: 20px;
         width: 200%;
-        margin-right: 110px;
+        margin-right: 115px;
+        height: 220px;
     }
 
     .best_margin{
-        margin-top: 200px;
-        
+        margin-top: 150px; 
+        font-size: 50px;      
+    }
+
+    .read_now{
+        margin-top: -30px;
+    }
+
+    .evapage_mobile{
+        margin: auto;
+        margin-right: 220px;
     }
 
 }
